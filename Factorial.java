@@ -14,4 +14,5 @@ public class Factorial {
         int n = sc.nextInt();
         printFactorial(n);
     }
+
 }
