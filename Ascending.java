@@ -17,8 +17,7 @@ public class Ascending {
             if(num[i]>num[i+1]) {
                 isAscending = false;
                 break;
-            }
-            
+            }  
         }
 
         if(isAscending) {
