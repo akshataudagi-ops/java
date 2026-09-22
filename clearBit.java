@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class getValueinbit {
+public class clearBit {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a decimal num : ");
@@ -9,12 +9,12 @@ public class getValueinbit {
 
         int position = sc.nextInt();
         int bitmask = 1<<position; 
+        int notBitmask = ~(bitmask);
 
-        if((bitmask & n)==0) {
-            System.out.println("Bit is zero");
-        }
-        else{
-            System.out.println("Bit is one");
-        }  
+        int newNum = notBitmask & n;
+        System.out.println(newNum);
+
+
+       
     }
 }

@@ -16,9 +16,6 @@ public class replaceLetters {
                 result += str.charAt(i);
             }
         }
-
         System.out.println(result);
-
-
     }
 }
