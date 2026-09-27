@@ -11,6 +11,5 @@ public class sumOfNaturalNum {
     }
     public static void main(String args[]) {
         printSum(1, 4, 0);
-        
     }
 }   
